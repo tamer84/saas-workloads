@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  namespace: first
+  namespace: solution-2048
   name: deployment-2048
   labels:
     app: 2048
