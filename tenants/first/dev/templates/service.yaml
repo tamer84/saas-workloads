@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  namespace: solution-2048
+  namespace: first
   name: service-2048
   labels:
     app: 2048

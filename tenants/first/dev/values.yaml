@@ -1,0 +1,8 @@
+labels:
+  env: dev
+  solution: 2048
+spec:
+  env:
+  ingress:
+    host: first.dev.tamer84.com
+    type: alb
