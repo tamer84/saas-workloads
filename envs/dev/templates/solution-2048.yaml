@@ -15,7 +15,7 @@ spec:
   source:
     repoURL: {{ .Values.spec.source.repoURL }}
     targetRevision: {{ .Values.spec.source.targetRevision }}
-    path: solutions/solution-2048/dev
+    path: tenants/solution-2048/dev
     helm:
       values: |
         {{- toYaml .Values | nindent 8 }}
